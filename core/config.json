@@ -1,0 +1,37 @@
+{
+    "config": {
+        "proxy": {
+            "placeId": 0,
+            "requestTime": 60,
+            "requestLimit": 128
+        },
+        "caching": {
+            "maxSize": 100,
+            "ttl": 150
+        },
+        "blocking": {
+            "ips": [
+                "192.168.1.0"
+            ],
+            "ids": [
+                0
+            ],
+            "apis": [
+            ],
+            "blockTime": 43200
+        },
+        "logging": {
+            "webhook": "https://discord.com/api/webhooks/1309946606824456243/Ns725Q6i1uo6WWRXfIyczZAuK9g0Vgt0mUXIfc2diquRtPG9Jk7O6qFzMeb-LaXQb-Rw"
+        }
+    },
+    "relay_config": {
+        "use_relay": false
+    },
+    "analytics": {
+        "requests": [
+            1,
+            0,
+            0
+        ]
+    }
+}
